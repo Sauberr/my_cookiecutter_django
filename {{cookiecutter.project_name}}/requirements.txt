@@ -1,0 +1,7 @@
+Django=={{cookiecutter.django_version}}
+Pillow
+ruff
+flake8
+black
+isort
+django-extenstions

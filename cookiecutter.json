@@ -1,0 +1,10 @@
+{
+    "project_slug": "my_project",
+    "project_name": "My Project",
+    "app_name": "my_app",
+    "django_version": "4.2",
+    "secret_key": "change_me",
+    "debug": "True",
+    "domain_name": "localhost",
+    "license": "MIT"
+}
