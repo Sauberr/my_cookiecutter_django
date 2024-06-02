@@ -16,7 +16,6 @@ cookiecutter https://github.com/Sauberr/my_cookiecutter_django
 ## Included
 * Django
 * Sample library for Django
-* Django Extensions
 * Sample Dockerfile
 * Flake8 & Isort & Black & Ruff
 * Sample GitHub Actions
