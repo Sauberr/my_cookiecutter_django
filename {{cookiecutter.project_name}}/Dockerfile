@@ -7,7 +7,7 @@ ENV PYTHONUNBUFFERED=1
 
 # Set work directory
 WORKDIR /{{cookiecutter.project_name}}
-EXPOSEE 8000
+EXPOSE 8000
 
 # Install dependencies
 RUN pip install --upgrade pip
