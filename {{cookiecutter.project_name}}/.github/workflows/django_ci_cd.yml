@@ -1,4 +1,4 @@
-name: quiz_CI_CD
+name: {{cookiecutter.project_name}}_CI_CD
 
 
 on:
