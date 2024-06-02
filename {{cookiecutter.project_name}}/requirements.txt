@@ -4,5 +4,5 @@ ruff
 flake8
 black
 isort
-django-extenstions
+django-extensions
 cookiecutter
