@@ -1,10 +1,13 @@
+from typing import Any, List
+
 from config.settings.base import *  # noqa
+
 
 DEBUG = True
 
 SECRET_KEY = 'django-secret-key'
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS: List[Any] = ['*']
 
 # MIDDLEWARE += [] # noqa # something add like debugtoolbar middleware
 
