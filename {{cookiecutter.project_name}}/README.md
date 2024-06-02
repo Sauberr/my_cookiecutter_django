@@ -1,22 +1,11 @@
-# Fast Django Boilerplate
+# Start
 
-## Usage
-You should install cookiecutter first:
-
-```bash
-pip install "cookiecutter>=1.7.0"
+To start up the app you can run native with:
+```shell
+python manage.py runserver
 ```
+or docker way:
 
-To create new project use this command
-
-```bash
-cookiecutter https://github.com/Sauberr/my_cookiecutter_django
+```shell
+docker-compose up -d
 ```
-
-## Included
-* Django
-* Sample library for Django
-* Django Extensions
-* Sample Dockerfile
-* Flake8 & Isort & Black & Ruff
-* Sample GitHub Actions
