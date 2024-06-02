@@ -2,5 +2,7 @@
     "template_name": "my_cookiecutter_django",
     "project_name": "My Project",
     "django_version": "4.2",
-    "license": "MIT"
+    "license": "MIT",
+    "year": "2024",
+    "author_name": "Your Name"
 }
