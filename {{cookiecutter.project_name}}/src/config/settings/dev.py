@@ -7,7 +7,7 @@ DEBUG = True
 
 SECRET_KEY = 'django-secret-key'
 
-ALLOWED_HOSTS: List[Any] = ['*']
+ALLOWED_HOSTS: List[Any] = ['*', '127.0.0.1']
 
 # MIDDLEWARE += [] # noqa # something add like debugtoolbar middleware
 
@@ -19,4 +19,12 @@ DATABASES = {
 }
 
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
+
+STATICFILES_DIRS = [BASE_DIR / 'static']
+
+MEDIA_URL = '/media/'
+
+MEDIA_ROOT = (BASE_DIR / 'media')
+
+STATIC_ROOT = (BASE_DIR / 'staticfiles')
