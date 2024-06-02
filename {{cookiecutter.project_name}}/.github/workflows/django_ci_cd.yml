@@ -1,4 +1,4 @@
-name: {{cookiecutter.project_name}}_CI_CD
+name: DJANGO_CI_CD
 
 
 on:
