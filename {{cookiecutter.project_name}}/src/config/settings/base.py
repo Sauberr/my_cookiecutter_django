@@ -27,6 +27,7 @@ INSTALLED_APPS: Tuple[str, ...] = (
     # Custom apps
 
     # My apps
+    'core',
 )
 
 MIDDLEWARE: Tuple[str, ...] = (
